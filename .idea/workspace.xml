@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f63dfcb-8a4e-41d3-b6ff-ef32f38a1388" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Portfolio Website.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Dhruv Dhariwal Resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/app.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/c-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/css-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dd transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/figma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/github-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gmail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/html-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ii1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/iit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/imgme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/insta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jodhpur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/letter-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/man1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/right_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/social.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/somaiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/somaiya1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/open.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/open.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2m1iJNgk6gV0wX4w4w4JeQ61wX0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Portfolio Website",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f63dfcb-8a4e-41d3-b6ff-ef32f38a1388" name="Changes" comment="" />
+      <created>1726250411204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726250411204</updated>
+      <workItem from="1726250413876" duration="1699000" />
+      <workItem from="1726252131329" duration="7814000" />
+      <workItem from="1726336628640" duration="14438000" />
+      <workItem from="1726351640052" duration="3163000" />
+      <workItem from="1726372926859" duration="713000" />
+      <workItem from="1726373812522" duration="610000" />
+      <workItem from="1726400448113" duration="3025000" />
+      <workItem from="1726405334499" duration="849000" />
+      <workItem from="1726420806564" duration="3000" />
+      <workItem from="1726421282969" duration="19515000" />
+      <workItem from="1726471917307" duration="2617000" />
+      <workItem from="1726475462239" duration="1829000" />
+      <workItem from="1726671113740" duration="146000" />
+      <workItem from="1727006940287" duration="1114000" />
+      <workItem from="1727008932291" duration="8841000" />
+      <workItem from="1727023941697" duration="1406000" />
+      <workItem from="1727194465402" duration="725000" />
+      <workItem from="1727280200350" duration="1209000" />
+      <workItem from="1727281675727" duration="920000" />
+      <workItem from="1727282871075" duration="38000" />
+      <workItem from="1727283018438" duration="3915000" />
+      <workItem from="1727287833781" duration="11917000" />
+      <workItem from="1727299919311" duration="1001000" />
+      <workItem from="1727300946142" duration="942000" />
+      <workItem from="1727303522481" duration="2965000" />
+      <workItem from="1727321429308" duration="4035000" />
+      <workItem from="1727325548684" duration="330000" />
+      <workItem from="1727326057772" duration="13000" />
+      <workItem from="1727349030819" duration="183000" />
+      <workItem from="1727349489096" duration="640000" />
+      <workItem from="1727350363595" duration="1225000" />
+      <workItem from="1727448916452" duration="6993000" />
+      <workItem from="1727457011188" duration="7425000" />
+      <workItem from="1727466676195" duration="978000" />
+      <workItem from="1727796447072" duration="15000" />
+      <workItem from="1727796472811" duration="3000" />
+      <workItem from="1727900293001" duration="63000" />
+      <workItem from="1728012410263" duration="474000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
