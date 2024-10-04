@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --blue-clr: #4DFFFF;
+  --grey-clr: #a8a8a8;
+  --gradient-bg: linear-gradient(-45deg, #D000F7, #24BAE3);
+}
+.bg-blue{
+  background: var(--blue-clr);
+}
+
+.txt-gray{
+  color: var(--grey-clr);
+}
+
+.mybtn1{
+  border: .2rem solid var(--blue-clr) !important;
+  width: fit-content;
+  font-size: 1.5rem;
+}
+
+.mybtn1:hover{
+  background: transparent;
+  color: var(--blue-clr) !important;
+}
+
+.gradientText{
+  display: inline-block;
+  background: var(--gradient-bg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.job{
+  display: inline-block;
+}
+.job::before{
+  content: attr(data-job1);
+  overflow: hidden;
+  display: inline-flex;
+  animation:
+  changeText 6s linear infinite;
+}
+@keyframes effectText{
+  from{
+    max-width: 0;
+  }to{
+     max-width: 500px;
+   }
+}
+@keyframes changeText {
+    0%, 33% {
+      content: attr(data-job1);
+    }
+    34%, 66% {
+      content: attr(data-job2);
+    }
+    67%, 100% {
+      content: attr(data-job3);
+    }
+  }
+
+h1{
+  font-size: 5rem;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 680px){
+  h1{
+    font-size: 2.8rem;
+  }
+
+  .image-container{
+    width: 20rem;
+  }
+
+  .hero-section{
+    min-height: 72vh;
+  }
+
+}
+

@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --blue-clr: #00ffee;
+  --grey-clr: #a8a8a8;
+  --gradient-bg: linear-gradient(-45deg, #D000F7, #24BAE3);
+}
+
+.bg-blue{
+  background: var(--blue-clr);
+}
+
+.txt-gray{
+  color: var(--grey-clr);
+}
+
+.mybtn{
+  border: .2rem solid var(--blue-clr) !important;
+}
+
+.mybtn:hover{
+  background: transparent;
+  color: var(--blue-clr) !important;
+}
+
+h1{
+  font-size: 3.5rem;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+.gradientText{
+  display: inline-block;
+  background: var(--gradient-bg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.job{
+  display: inline-block;
+}
+.job::before{
+  content: attr(data-job1);
+  overflow: hidden;
+  display: inline-flex;
+  animation:
+    changeText 6s linear infinite;
+}
+@keyframes effectText{
+  from{
+    max-width: 0;
+  }to{
+     max-width: 500px;
+   }
+}
+@keyframes changeText {
+  0%, 33% {
+    content: attr(data-job1);
+  }
+  34%, 66% {
+    content: attr(data-job2);
+  }
+  67%, 100% {
+    content: attr(data-job3);
+  }
+}
+
+.image-container{
+  width: 25rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  background-image: url("./images/imgme.jpg");
+  background-position: center;
+  background-size: 100%;
+  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 680px){
+  h1{
+    font-size: 2.8rem;
+  }
+
+  .image-container{
+    width: 20rem;
+  }
+
+  .hero-section{
+    min-height: 72vh;
+  }
+
+}
+
+.container1{
+  text-align: center;
+  color: white;
+}
+
+.container-text{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: start;
+}
+
+
+.container-cards{
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 6px white;
+
+}
+
+.card {
+  background-color: black;
+  border-color: white;
+  color: white;
+  border-radius: 40px;
+  padding: 20px;
+  text-align: left;
+  width: 350px;
+  min-height: 300px;
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+
+.card p{
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+
+.tools-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tool {
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+  border: 2px solid white;
+}
+
+.tool img {
+  width: 50px;
+  height: 50px;
+}
+
+.tool:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 5px white;
+}
+
+.tools-heading{
+  padding-top: 50px;
+  padding-left: 200px;
+}
+
+
+.portfolio-header {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+
+.portfolio-intro {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-top: 40px;
+}
+
+.project-card {
+  width: calc(25% - 10px);
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.project-card:hover{
+  transform: scale(1.05);
+}
+
+.project-card:last-child {
+  margin-right: 0;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-title {
+  font-weight: bold;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.project-category {
+  font-size: 0.85em;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.mybtn1 {
+  background-color: transparent;
+  color: white;
+  border: 2px dotted white;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mybtn1 .arrow {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.buttons1{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.bottombar{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.blurred-line {
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 3px;
+  background: linear-gradient(white, transparent);
+}
+
+.bottombar-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.email-signup input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.email-signup button {
+  background-color: #4DFFFF;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-icons {
+  padding-right: 50px;
+  display: flex;                    /* Use flexbox for social icons */
+  align-items: center;             /* Center icons vertically */
+  margin-left: 20px;               /* Add some space between email box and icons */
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  margin-left: 50px;
+  transition: color 0.3s;
+}
+
